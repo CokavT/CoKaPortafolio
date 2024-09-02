@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portafolio Danny</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body class="contacto">
+    <!-- Barra de navegación -->
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <a class="navbar-brand" href="index.html">Danny Gamba - Diseñador</a>
+            <img src="fotos/springbarra.gif" alt="Gif" class="navbar-gif">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="sobre mi.html">Sobre mí</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="portafolio.html">Portafolio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="servicios.html">Servicios</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contacto.html">Contacto</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    
+    <!-- Contactowo (5mentarios) -->
+    <section class="container my-5">
+        <h2>Contacto</h2>
+        <p>Si deseas ponerte en contacto conmigo para trabajar juntos, puedes utilizar el siguiente formulario.</p>
+        <form action="https://formspree.io/f/xwpezeag" method="POST">
+            <div class="form-group">
+                <label for="name" class="text-light">Nombre:</label>
+                <input type="text" class="form-control" id="name" name="name" placeholder="Tu nombre" required>
+            </div>
+            <div class="form-group">
+                <label for="email" class="text-light">Correo Electrónico:</label>
+                <input type="email" class="form-control" id="email" name="email" placeholder="Tu correo electrónico" required>
+            </div>
+            <div class="form-group">
+                <label for="message" class="text-light">Mensaje:</label>
+                <textarea class="form-control" id="message" name="message" rows="4" placeholder="Tu mensaje" required></textarea>
+            </div>
+            <button type="submit" class="btn btn-warning">Enviar</button>
+        </form>
+    </section>
+
+    <!-- patas 5 el final -->
+    <footer class="text-center text-light bg-dark py-4">
+        <p>&copy; 2024 Danny Gamba. Todos los derechos reservados.</p>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.1/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
